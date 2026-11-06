@@ -1,0 +1,28 @@
+# Unreal Engine
+Binaries/
+Build/*
+!Build/*/
+!Build/**/*.ico
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Plugins
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Compiled files
+*.exe
+*.dll
+*.obj
+*.pdb
+*.o
+*.so
+*.dylib
